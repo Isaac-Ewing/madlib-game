@@ -9,5 +9,5 @@
     "rootDir": "./src",                             /* Specify the root directory of input files. Use to control the output directory structure with */
     "forceConsistentCasingInFileNames": true        /* Disallow inconsistently-cased references to the same file. */
   },
-  "include": ["src"]
+  "include": ["src", "domutils.js"]
 }
