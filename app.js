@@ -17,7 +17,6 @@ const bodyPartA = document.getElementById('part-of-body-pluralA');
 const pluralB = document.getElementById('plural-nounB');
 const adjectiveA = document.getElementById('adjectiveA');
 submit.addEventListener('click', () => {
-    console.log('working');
     hiddenParagraph.style.display = 'block';
     nounA.textContent = sync(firstNoun);
     pluralA.textContent = sync(firstPlural);
